@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+      .first
+      {color:red;}
+      #idfirst
+      {color:yellow;}
+
+      div p
+      {
+        color:blueviolet
+      }
+</style>
+<body>
+    
+    <div style="color:rgb(9, 255, 0)">this is a class</div>
+    <div class="first">
+        how are you
+    </div>
+    <div id="idfirst">
+        i am fine
+    </div>
+    <div class="first">
+        did you eat
+    </div>
+    <div class="second">
+         how a wounderful day
+    </div>
+    <div class="third">
+        today is monday
+        <p class="fourth">
+            carte center ghaziabad
+            </p>
+    </div>
+
+
+</body>
+ </html>
+
