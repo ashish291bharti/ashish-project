@@ -6,3 +6,18 @@ div p
 {
     color:blue
 }
+.main
+{
+    display:flex
+}
+
+.firstcss
+{
+    background-image: url(images.jpg);
+    height:500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 300px;
+    display:flex
+}
+
