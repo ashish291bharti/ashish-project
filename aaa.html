@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <button onclick="check()">
+        Submit
+    </button>
+    <p id="try"></p>
+</body>
+<script>
+    function check()
+    {
+        var txt;
+        if (confirm("continue"))
+        {
+            txt="user wants to continue";
+        }
+        else
+        {
+            txt="user don't want to continue";
+        }
+    document.getElementById("try").innerHTML=txt;
+    }
+</script>
+</html>

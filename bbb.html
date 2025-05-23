@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+ <button onclick="check()">
+    submit
+ </button>  
+ <p id="try"></p> 
+</body>
+<script>
+function check()
+{
+    var name;
+    var person=prompt("It is a person","test");
+    if(person==null||person=="")
+{
+    name="cancel prompt";
+}
+else
+{
+    name="It is prompt";
+}
+document.getElementById("try").innerHTML=name;
+}
+</script>
+</html>
